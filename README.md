@@ -103,3 +103,11 @@
 7. `olya.pay(100)`
 8. `station_b.add_money(100)`
 9. `main()` друкує результат
+
+---
+
+## Ролі
+1. Oleksandra Makhinko
+2. Ivan Khodasevych
+3. Andrii Helich
+4. Zakharii Mizerak
