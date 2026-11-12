@@ -1,5 +1,5 @@
 class Bike:
-    def init(self, number, is_electric):
+    def __init__(self, number, is_electric):
         self.number = number
         self.is_electric = is_electric
 
@@ -8,7 +8,7 @@ class Bike:
 
 
 class Station:
-    def init(self, name):
+    def __init__(self, name):
         self.name = name
         self.bikes = []
         self.money = 0
