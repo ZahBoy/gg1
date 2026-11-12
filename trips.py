@@ -1,9 +1,9 @@
-
 def calculate_cost(minutes,is_electric):
     if is_electric:
         return minutes * 5
     else:
         return minutes * 2
+
 class Network:
     def __init__(self,stations):
         self.stations = stations
