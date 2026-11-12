@@ -4,6 +4,7 @@ class Client:
     self.balance = balance
   def can_pay(self, amount):
     return amount <= self.balance
+
   def pay(self, amount):
     if self.can_pay(amount):
       self.balance -= amount
