@@ -94,8 +94,6 @@
 
 ## Сценарій
 
-> Оля бере електричний велосипед на станції А, катається 20 хвилин і повертає його на станцію Б.
-
 1. `network.rent(20, station_a, station_b, True, olya)`
 2. `station_a.has_bike(True)` → інакше `"no_bike"`
 3. `calculate_cost(20, True)` → 100
@@ -105,3 +103,11 @@
 7. `olya.pay(100)`
 8. `station_b.add_money(100)`
 9. `main()` друкує результат
+
+---
+
+## Ролі
+1. Oleksandra Makhinko
+2. Ivan Khodasevych
+3. Andrii Helich
+4. Zakharii Mizerak
