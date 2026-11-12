@@ -34,12 +34,12 @@ def main():
     petro = Client("Петро", 100)
 
     rides = [
-        (20, station_A, station_B, True, olya),     # 100 грн
-        (15, station_A, station_B, False, petro),   # 30 грн, станція A порожня
-        (15, station_A, station_B, True, olya),     # відмова: на A немає велосипедів
-        (5, station_A, station_B, False, olya),     # відмова: на A немає велосипедів
-        (10, station_B, station_A, False, olya),    # 20 грн
-        (30, station_B, station_A, True, petro),    # відмова: 150 грн > 70 грн
+        (20, station_A, station_B, True, olya),
+        (15, station_A, station_B, False, petro),
+        (15, station_A, station_B, True, olya),
+        (5, station_A, station_B, False, olya),
+        (10, station_B, station_A, False, olya),
+        (30, station_B, station_A, True, petro),
     ]
 
     print("=== Поїздки ===")
