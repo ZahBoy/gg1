@@ -3,6 +3,6 @@ class Client:
     self.name = name
     self.balance = balance
   def can_pay(self, amount):
-    pass
+     return amount <= self.balance
   def pay(self, amount):
     pass
