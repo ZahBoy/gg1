@@ -11,13 +11,13 @@ class Network:
         if  not start_station.has_bike(is_electric):
             return "no_bike"
         cost = calculate_cost(minutes,is_electric)
-        if not client.can_pay(100):
+        if not client.can_pay(cost):
             return "no_money"
 
         bike = start_station.take_bike(is_electric)
         end_station.return_bike(bike)
 
-        client.can_pay(cost)
+        client.pay(cost)
         end_station.add_money(cost)
         return cost
     def total_money(self):
