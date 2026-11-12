@@ -28,7 +28,6 @@ class Network:
 
         for station in self.stations:
             result[station.name] = station.count_bikes()
-
         return result
 
 def print_report(network):
