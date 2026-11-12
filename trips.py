@@ -31,5 +31,9 @@ class Network:
 
         return result
 
-
+def print_report(network):
+    print("Кількість велосипедів на станціях:")
+    for station, count in network.count_bikes().items():
+        print(f"{station}: {count}")
+    print("Загальна виручка:", network.total_money(), "грн")
 
