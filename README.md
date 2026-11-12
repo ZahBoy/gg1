@@ -94,8 +94,6 @@
 
 ## Сценарій
 
-> Оля бере електричний велосипед на станції А, катається 20 хвилин і повертає його на станцію Б.
-
 1. `network.rent(20, station_a, station_b, True, olya)`
 2. `station_a.has_bike(True)` → інакше `"no_bike"`
 3. `calculate_cost(20, True)` → 100
